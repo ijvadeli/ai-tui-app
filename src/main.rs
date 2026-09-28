@@ -1,5 +1,6 @@
 use std::collections::hash_map::RandomState;
 use std::hash::{BuildHasher, Hash, Hasher};
+use std::time::{SystemTime, UNIX_EPOCH};
 
 const SAYINGS: &[&str] = &[
     "Even the longest road begins beneath your feet.",
